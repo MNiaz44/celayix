@@ -1,0 +1,12 @@
+/* .css-r21bhx-MuiGrid-root > .MuiGrid-item {
+  width: 100% !important;
+} */
+
+.version-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: lightgray;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,58 @@
+export const stylesMui = {
+  containerSearch: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  containerGrid: {
+    width: "105%",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  headingBox: {
+    my: { xs: "8px", md: "24px" },
+    color: "#202020",
+    textAlign: "center",
+    fontSize: "24px",
+    fontStyle: "normal",
+    fontWeight: "500",
+    lineHeight: "26px",
+  },
+  textBox: {
+    justifyContent: "flex-start",
+  },
+  iconOrButtonBox: {
+    justifyContent: "flex-end",
+  },
+  outlineBox: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "initial",
+    width: "100%",
+    mt: "1.69rem",
+    py: "1.5rem",
+    px: "2.25rem",
+    // px: { xs: "2.25rem", md: "1.25rem", xl: "2.25rem" },
+    borderRadius: "5px",
+    border: "1px solid rgba(0, 149, 128, 0.40)",
+  },
+  rowBox: {
+    // width: "100%",
+    gap: { xs: "3.7px", md: "5px", xl: "0px" },
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "baseline",
+  },
+  runAllBox: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+};
